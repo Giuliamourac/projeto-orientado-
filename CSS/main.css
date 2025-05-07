@@ -1,0 +1,38 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    color: #f1f1f1;
+    background-color: #12151f;
+}
+
+header
+{
+    padding: 1rem;
+    color: #ffffff;
+    background-color: #39405e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header a
+{
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: underline;
+    transition: 0.2s ease;
+}
+
+header a:hover
+{
+    font-size: 21px;
+    text-shadow: 2px 2px 2px #39405e(0, 0, 0, 0.37);
+}
+
+h1
+{
+    font-size: 3rem;
+}

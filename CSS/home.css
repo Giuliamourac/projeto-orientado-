@@ -1,0 +1,77 @@
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2
+{
+    font-size: 2rem;
+}
+
+section
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#cards
+{
+    display: flex;
+}
+
+.cartoes
+{
+    background-color: #39405e;
+    padding: 30px;
+    border-style: solid;
+    border-color: #f1f1f1;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: #39405e (0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    transition: 0.2s ease;
+}
+
+.cartoes:hover
+{
+    transform: scale(103%);
+}
+
+figure img
+{
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+figure article
+{
+    display: flex;
+    flex-direction: column;
+}
+
+article
+{
+    margin: 5px 40px;
+}
+
+article p
+{
+    width: 400px;
+}
+
+button
+{
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #bacad4;
+    box-shadow: #39405e(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    transition: 0.2s ease;
+}
+
+button:hover
+{
+    transform: scale(105%);
+}
