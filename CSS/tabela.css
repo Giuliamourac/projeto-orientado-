@@ -4,41 +4,30 @@ table
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 2px 10px #4459b8;;
+}
+
+caption
+{
+    font-size: 20px;
 }
 
 th, td 
 {
     padding: 1rem;
-    border: 1px solid #1b1f2f;
+    border: 1px solid #343d5c;
     text-align: center;
-}
-
-tr:hover 
-{
-    background-color:#f5f5f5;
-}
-
-ul 
-{
-    margin: 2rem;
-    background-color: #f5f5f5; 
-    border: 1px solid #1b1f2f; 
-    box-shadow: 4px 4px 8px rgb(117, 117, 115);
 }
 
 li 
 {
     padding: 1rem;
     border: 1px solid #cfcfcf; 
-    color: #1b1f2f; 
+    color: #2d303b; 
     background-color: #ffffff;
     font-size: 1rem;
 }
 
-li:hover 
+tr:hover 
 {
-    background-color: #f0f0f0; 
-    color: #1b1f2f; 
+    background-color:#f5f5f546;
 }
-

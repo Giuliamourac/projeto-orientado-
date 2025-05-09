@@ -4,6 +4,7 @@ body
     padding: 0;
     color: #f1f1f1;
     background-color: #12151f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header
@@ -29,7 +30,7 @@ header a
 header a:hover
 {
     font-size: 21px;
-    text-shadow: 2px 2px 2px #39405e(0, 0, 0, 0.37);
+    text-shadow: 2px 2px 2px #39405e;
 }
 
 h1
